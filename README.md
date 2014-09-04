@@ -1,6 +1,5 @@
 ![](REF/layout.jpg?raw=true)
-
-==================
+============================
 
 ### Вы на пути к полному контролю всего, что просиходит в браузере
 
@@ -25,9 +24,9 @@
 
 
 #### Улучшение вашей системы
-* Зарегистрируйтесь на GitHub (http://github.com)
+* Зарегистрируйтесь на [GitHub](http://github.com)
 * Сделайте Fork моего репозитория
-* Скачайте GitHub App для OS X (http://) или Windows ()
+* Скачайте GitHub App для [OS X](https://mac.github.com/) или [Windows] (https://windows.github.com/)
 * Подключите в GitHub App ваш Fork
 * Создайте свой бранч с уникальным именем
 
