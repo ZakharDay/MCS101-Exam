@@ -1,0 +1,160 @@
+.hPhoto,
+.fPhoto {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+.hPhoto {
+	background: url(../images/bg-top.jpg) bottom;
+}
+
+.fPhoto {
+	background: url(../images/bg-btm.jpg) bottom;
+}
+
+section#top
+section#bottom {
+	position: relative;
+}
+
+div#text {
+	text-align: center;
+	margin-top: 140px;
+	text-shadow: .5px .8px .5px white;
+	color: black;
+	font-weight: bold;
+	font-size: 70px;
+}
+
+div#textmin {
+	text-align: right;
+	margin-right: 150px;
+	margin-top: 10px;
+	text-shadow: 0 0 .5px #CCFFFF;
+	color: black;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+#blockzero {
+	position: relative;
+	width: 100%;
+	height: 200px;
+}
+
+#blockzero div#zerotext {
+	text-align: center;
+	padding-top: 65px;
+}
+
+
+#blockzero div#zeromini {
+	text-align: center;
+	color: black;
+	font-size: 22px;
+	padding-top: 5px;
+	text-shadow: 0 0 .5px #CCFFFF;
+}
+
+
+#blockone {
+	position: relative;
+	width: 100%;
+	height: 350px;
+}
+
+p.par-max {
+	text-align: center;
+	color: white;
+	text-shadow: 0 .5px .5px black;
+	font-size: 20px;
+}
+
+p.par-min {
+	margin: 5px;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+
+#blockone p.par-min:hover {
+	color: black;
+}
+
+#blocktwo,
+#blockfour,
+#blocksix {
+	/*position: relative;*/
+	text-align: center;
+	width: 100%;
+	height: 340px;
+	margin-top: 30px;
+}
+
+#blocktwo p.par-min-black,
+#blockfour p.par-min-black,
+#blocksix p.par-min-black {
+	margin: 15px;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	text-shadow: 0 0 .5px #CCFFFF;
+}
+
+#blockthree,
+#blockfive {
+	/*position: relative;*/
+	text-align: center;
+	width: 100%;
+	height: 150px;
+}
+
+div#sectionthree,
+div#sectionfive {
+	width: 100%;
+	height: 100%;
+	background: -webkit-linear-gradient(-45deg, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(6,199,216,1) 58%); /* Chrome10+,Safari5.1+ */
+}
+
+#blockthree p.par-max,
+#blockfive p.par-max {
+	padding-top: 45px;
+	font-size: 30px;
+}
+
+
+#blockthree p.par-min,
+#blockfive p.par-min {
+	margin-top: 10px;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+#blockseven {
+	width: 100%;
+	height: 150px;
+	background: -webkit-linear-gradient(-45deg, rgba(228,245,252,1) 0%,rgba(228,245,252,1) 30%,rgba(191,232,249,1) 50%,rgba(24,214,224,1) 68%,rgba(44,223,247,1) 100%); /* Chrome10+,Safari5.1+ */
+}
+
+#blockseven p.par-max {
+	padding-top: 25px;
+	font-size: 45px;
+}
+
+#blockseven p.par-min {
+	margin-top: 10px;
+	font-size: 25px;
+	color: #FFFFFF;
+}
+
+#promo {
+	color: white;
+	text-align: right;
+	color: white;
+	text-shadow: 0 .5px .5px black;
+	font-size: 12px;
+	margin: 5px 15px 5px auto;
+}
+

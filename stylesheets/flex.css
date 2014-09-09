@@ -1,0 +1,200 @@
+.flex {
+	position: relative;
+	display: flex;
+	text-align: center;
+	padding: 1px;
+}
+
+#blockone .flex #first, 
+#blockone .flex #second,
+#blockone .flex #third {
+	border: 1px solid white;
+	width: 33.3%;
+	height: 350px;
+	text-shadow: 0 .9px .9px #CCFFFF;
+	background: -webkit-linear-gradient(-45deg, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(6,199,216,1) 58%); /* Chrome10+,Safari5.1+ */
+}
+
+#blockone .flex #first:hover, 
+#blockone .flex #second:hover,
+#blockone .flex #third:hover {
+	transition: all 0.5s ease-out;
+	color: #CCFFFF;
+	text-shadow: 0 .5px .5px black;
+}
+
+
+.icon {
+	margin: 40px auto;
+	width: 150px;
+	height: 150px;
+	box-shadow: 1px 1px 1px grey;
+	background-color: white;
+	border-radius: 150px;
+}
+
+.icon-two {
+	width: 150px;
+	height: 150px;
+}
+
+.flex .fa-code-fork {
+	margin: 37px 56px;
+	font-size: 80px;
+}
+
+.flex .fa-files-o {
+	margin: 37.5px auto;
+	font-size: 75px;
+}
+
+.flex .fa-github {
+	margin: 33px 38px;
+	font-size: 88px;
+}
+
+.flex-two-mini {
+	width: 20%;
+}
+
+#blocksix .flex-two-mini {
+	width: 33.3%;
+}
+
+/*____________________________________________*/
+
+/*____________________________________________*/
+
+/*____________________________________________*/
+
+
+.icon-two#one {
+	background: url(../images/info-01.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-radius: 75px;
+	box-shadow: 1px 1px 1px grey;
+}
+
+.icon-two#two {
+	background: url(../images/info-02.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-radius: 75px;
+	box-shadow: 1px 1px 1px grey;
+}
+
+.icon-two#three {
+	background: url(../images/info-03.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-radius: 75px;
+	box-shadow: 1px 1px 1px grey;
+}
+
+.icon-two#four {
+	background: url(../images/info-04.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-radius: 75px;
+	box-shadow: 1px 1px 1px grey;
+}
+
+.icon-two#five {
+	background: url(../images/info-05.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-radius: 75px;
+	box-shadow: 1px 1px 1px grey;
+}
+
+/*____________________________________________*/
+
+/*____________________________________________*/
+
+/*____________________________________________*/
+
+.icon-two#six {
+	background: url(../images/info-06.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-radius: 75px;
+	box-shadow: 1px 1px 1px grey;
+}
+
+.icon-two#seven {
+	background: url(../images/info-07.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-radius: 75px;
+	box-shadow: 1px 1px 1px grey;
+}
+
+.icon-two#eight {
+	background: url(../images/info-08.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-radius: 75px;
+	box-shadow: 1px 1px 1px grey;
+}
+.icon-two#nine {
+	background: url(../images/info-09.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-radius: 75px;
+	box-shadow: 1px 1px 1px grey;
+}
+
+.icon-two#ten {
+	background: url(../images/info-10.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-radius: 75px;
+	box-shadow: 1px 1px 1px grey;
+}
+
+
+/*____________________________________________*/
+
+/*____________________________________________*/
+
+/*____________________________________________*/
+
+
+.icon-two#eleven {
+	background: url(../images/info-11.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-radius: 75px;
+	box-shadow: 1px 1px 1px grey;
+}
+.icon-two#twelve {
+	background: url(../images/info-12.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-radius: 75px;
+	box-shadow: 1px 1px 1px grey;
+}
+
+.icon-two#thirteen {
+	background: url(../images/info-13.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-radius: 75px;
+	box-shadow: 1px 1px 1px grey;
+}
+
+
