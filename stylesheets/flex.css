@@ -12,7 +12,7 @@
 	width: 33.3%;
 	height: 462px;
 	text-shadow: 0 .9px .9px #CCFFFF;
-	background: -webkit-linear-gradient(-45deg, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(6,199,216,1) 58%); /* Chrome10+,Safari5.1+ */
+	background: -webkit-linear-gradient(top, rgba(61,229,229,1) 0%,rgba(41,223,229,1) 15%,rgba(54,212,226,1) 32%,rgba(41,184,229,1) 60%,rgba(41,184,229,1) 72%,rgba(41,184,229,1) 84%,rgba(26,177,237,1) 100%); /* Chrome10+,Safari5.1+ */
 }
 
 /*#blockone .flex #first:hover, 
@@ -27,7 +27,7 @@
 .iconcon {
 	width: 180px;
 	height: 181px;
-	margin: 94px auto 67px;
+	margin: 100px auto 65px;
 }
 
 .icon {
@@ -52,18 +52,18 @@
 }
 
 .flex .fa-code-fork {
-	margin: 37px 56px;
-	font-size: 80px;
+	margin: 45px 52px 45px 60px;
+	font-size: 60px;
 }
 
 .flex .fa-files-o {
-	margin: 37.5px auto;
-	font-size: 75px;
+	margin: 45px 20px 45px 25px;
+	font-size: 60px;
 }
 
-.flex .fa-github {
-	margin: 33px 38px;
-	font-size: 88px;
+.flex .fa-github-alt {
+	margin: 45px 35px 45px 40px;
+	font-size: 60px;
 }
 
 .flex-two-mini {
