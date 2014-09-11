@@ -1,0 +1,209 @@
+.hPhoto,
+.fPhoto {
+	position: absolute;
+	width: 1440px;
+	height: 800px;
+	background-size: cover;
+}
+
+section#top,
+section#bottom {
+	position: relative;
+	width: 1440px;
+	height: 800px;
+}
+
+.hPhoto {
+	background: url(../images/bg-top.jpg) bottom;
+}
+
+.fPhoto {
+	background: url(../images/bg-btm.jpg) bottom;
+}
+
+div#text {
+	text-align: center;
+	margin-top: 330px;
+	margin-left: 30px;
+	text-shadow: .2px -.2px .3px white;
+	color: black;
+	line-height: 1.2;
+	/*word-spacing: -.025ex;*/
+	/*letter-spacing: -.025ex;*/
+	/*font-weight: bold;*/
+	font-size: 58px;
+	font-family: 'PT Sans Caption', sans-serif;
+}
+
+section#bottom div#text {
+	text-align: center;
+	margin-top: 354px;
+	text-shadow: .2px -.2px .3px white;
+	color: black;
+	line-height: 1.2;
+	/*font-weight: bold;*/
+	font-size: 58px;
+	font-family: 'PT Sans Caption', sans-serif;
+}
+
+
+/*div#textmin {
+	text-align: right;
+	margin-right: 150px;
+	margin-top: 10px;
+	text-shadow: 0 0 .5px #CCFFFF;
+	color: black;
+	font-weight: bold;
+	font-size: 50px;
+}*/
+
+#blockzero {
+	position: relative;
+	width: 1440px;
+	height: 240px;
+}
+
+#blockzero div#zerotext {
+	text-align: center;
+	padding-top: 91px;
+	font-size: 28px; 
+	font-family: 'PT Sans Caption', sans-serif;
+	line-height: 1.2;
+}
+
+#blocktwo div#zerotext,
+#blockfour div#zerotext,
+#blocksix div#zerotext {
+	text-align: center;
+	padding-top: 94px;
+	font-size: 28px; 
+	font-family: 'PT Sans Caption', sans-serif;
+	line-height: 1.2;
+}
+
+
+#blockzero div#zeromini {
+	font-family: 'PT Sans', sans-serif; /* pt sans is needed */
+	text-align: center;
+	color: grey;
+	font-size: 24px;
+	padding-top: 7px;
+	font-weight: lighter;
+	/*text-shadow: 0 0 .5px #CCFFFF;*/
+}
+
+
+#blockone {
+	position: relative;
+	width: 1440px;
+	height: 462px;
+}
+
+p.par-max {
+	font-family: 'PT Sans Caption', sans-serif;
+	text-align: center;
+	color: white;
+/*	text-shadow: 0 .5px .5px black;*/
+	font-size: 22px;
+}
+
+p.par-min {
+	font-family: 'PT Sans', sans-serif;
+	line-height: 1.2;
+	margin-top: 7px;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+}
+
+/*
+#blockone p.par-min:hover {
+	color: black;
+}
+*/
+
+/*#blockone p.par-max{
+	margin-top: 67px;
+}
+*/
+#blocktwo,
+#blockfour,
+#blocksix {
+	/*position: relative;*/
+	text-align: center;
+	width: 1440px;
+	height: 556px;
+}
+
+#blocktwo p.par-min-black,
+#blockfour p.par-min-black,
+#blocksix p.par-min-black {
+	margin: 15px;
+	line-height: 1.2;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	text-shadow: none;
+}
+
+#blockthree,
+#blockfive {
+	/*position: relative;*/
+	text-align: center;
+	width: 1440px;
+	height: 240px;
+}
+
+div#sectionthree,
+div#sectionfive {
+	width: 1440px;
+	height: 240px;
+	background: -webkit-linear-gradient(top, rgba(61,229,229,1) 0%,rgba(41,223,229,1) 15%,rgba(54,212,226,1) 32%,rgba(41,184,229,1) 60%,rgba(41,184,229,1) 72%,rgba(41,184,229,1) 84%,rgba(26,177,237,1) 100%); /* Chrome10+,Safari5.1+ */
+}
+
+#blockthree p.par-max,
+#blockfive p.par-max,
+#blockseven p.par-max {
+	padding-top: 91px;
+	font-size: 28px;
+}
+
+
+#blockthree p.par-min,
+#blockfive p.par-min,
+#blockseven p.par-min {
+	margin-top: 10px;
+	line-height: 1.2;
+	font-size: 24px;
+	color: #FFFFFF;
+}
+
+#blockseven {
+	width: 1440px;
+	height: 240px;
+	/*background: -webkit-linear-gradient(-45deg, rgba(228,245,252,1) 0%,rgba(228,245,252,1) 30%,rgba(191,232,249,1) 50%,rgba(24,214,224,1) 68%,rgba(44,223,247,1) 100%); Chrome10+,Safari5.1+ */
+	background: -webkit-linear-gradient(top, rgba(61,229,229,1) 0%,rgba(41,223,229,1) 15%,rgba(54,212,226,1) 32%,rgba(41,184,229,1) 60%,rgba(41,184,229,1) 72%,rgba(41,184,229,1) 84%,rgba(26,177,237,1) 100%); /* Chrome10+,Safari5.1+ */
+}
+
+/*#blockseven p.par-max {
+	padding-top: 25px;
+	font-size: 45px;
+}
+
+#blockseven p.par-min {
+	margin-top: 10px;
+	font-size: 25px;
+	color: #FFFFFF;
+}*/
+
+#promo {
+	font-family: 'PT Sans', sans-serif;
+	position: relative;
+	text-align: center;
+	color: white;
+	/*text-shadow: 0 .5px .5px black;*/
+	font-size: 16px;
+	margin-top: 270px; /* pt sans */
+	opacity: 0.9;
+}
+

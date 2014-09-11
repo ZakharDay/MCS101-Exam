@@ -1,0 +1,200 @@
+.flex {
+	position: relative;
+	display: flex;
+	text-align: center;
+	padding: 1px;
+}
+
+#blockone .flex #first, 
+#blockone .flex #second,
+#blockone .flex #third {
+	border: 1px solid white;
+	width: 33.3%;
+	height: 462px;
+	text-shadow: 0 .9px .9px #CCFFFF;
+	background: -webkit-linear-gradient(top, rgba(61,229,229,1) 0%,rgba(41,223,229,1) 15%,rgba(54,212,226,1) 32%,rgba(41,184,229,1) 60%,rgba(41,184,229,1) 72%,rgba(41,184,229,1) 84%,rgba(26,177,237,1) 100%); /* Chrome10+,Safari5.1+ */
+}
+
+/*#blockone .flex #first:hover, 
+#blockone .flex #second:hover,
+#blockone .flex #third:hover {
+	transition: all 0.5s ease-out;
+	color: #CCFFFF;
+	text-shadow: 0 .5px .5px black;
+}
+*/
+
+.iconcon {
+	width: 180px;
+	height: 181px;
+	margin: 100px auto 65px;
+}
+
+.icon {
+	margin: 10px 15px 21px 15px;
+	box-shadow: 1.5px 1.5px 5px grey;
+	background-color: white;
+	border-radius: 150px;
+}
+
+.iconcon-two {
+	width: 180px;
+	height: 181px;
+	margin: 90px auto 32px;
+}
+
+.icon-two {
+	margin: 10px 15px 21px 15px;
+	width: 150px;
+	height: 150px;
+	box-shadow: 1.5px 2.5px 10px #CCCCCC ;
+
+}
+
+.flex .fa-code-fork {
+	margin: 45px 52px 45px 60px;
+	font-size: 60px;
+}
+
+.flex .fa-files-o {
+	margin: 45px 20px 45px 25px;
+	font-size: 60px;
+}
+
+.flex .fa-github-alt {
+	margin: 45px 35px 45px 40px;
+	font-size: 60px;
+}
+
+.flex-two-mini {
+	width: 20%;
+}
+
+#blocksix .flex-two-mini {
+	width: 33.3%;
+}
+
+/*____________________________________________*/
+
+/*____________________________________________*/
+
+/*____________________________________________*/
+
+
+.icon-two#one {
+	background: url(../images/info-01.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 90px;
+	border-radius: 75px;
+}
+
+.icon-two#two {
+	background: url(../images/info-02.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 90px;
+	border-radius: 75px;
+}
+
+.icon-two#three {
+	background: url(../images/info-03.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 90px;
+	border-radius: 75px;
+}
+
+.icon-two#four {
+	background: url(../images/info-04.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 90px;
+	border-radius: 75px;
+}
+
+.icon-two#five {
+	background: url(../images/info-05.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 90px;
+	border-radius: 75px;
+}
+
+/*____________________________________________*/
+
+/*____________________________________________*/
+
+/*____________________________________________*/
+
+.icon-two#six {
+	background: url(../images/info-06.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 90px;
+	border-radius: 75px;
+}
+
+.icon-two#seven {
+	background: url(../images/info-07.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 90px;
+	border-radius: 75px;
+}
+
+.icon-two#eight {
+	background: url(../images/info-08.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 90px;
+	border-radius: 75px;
+}
+.icon-two#nine {
+	background: url(../images/info-09.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 90px;
+	border-radius: 75px;
+}
+
+.icon-two#ten {
+	background: url(../images/info-10.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 90px;
+	border-radius: 75px;
+}
+
+
+/*____________________________________________*/
+
+/*____________________________________________*/
+
+/*____________________________________________*/
+
+
+.icon-two#eleven {
+	background: url(../images/info-11.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 90px;
+	border-radius: 75px;
+}
+.icon-two#twelve {
+	background: url(../images/info-12.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 90px;
+	border-radius: 75px;
+}
+
+.icon-two#thirteen {
+	background: url(../images/info-13.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 90px;
+	border-radius: 75px;
+}
+
+
