@@ -41,8 +41,8 @@
 * Создайте файл index.html
 * Подключите файл reset.css
 * Подключите файл style.css
-* Подключите PT Sans и PT Sans Caption
-* Подключите иконки Font Awesome
+* [Подключите](https://www.google.com/fonts) PT Sans и PT Sans Caption
+* Подключите иконки [Font Awesome](http://fortawesome.github.io/Font-Awesome/get-started/)
 
 
 
