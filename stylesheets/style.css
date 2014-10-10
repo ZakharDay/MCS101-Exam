@@ -1,0 +1,163 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'PT Sans', Sans-serif;
+	min-width: 940px;
+}
+
+h1 { 
+	font-size: 58px;
+	color: black;
+	text-align: center;
+}
+
+h2 { 
+	font-size: 32px;
+	color: black;
+	text-align: center;
+}
+
+
+h3 { 
+	font-size: 24px;
+	color: white;
+	text-align: center;
+}
+
+h4 { 
+	font-size: 26px;
+	color: white;
+	text-align: center;
+}
+
+a {
+	color: #20b3fa;
+	text-decoration: underline;
+}
+
+#welcome {
+	background-image: url(../images/bg-top.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 320px 5%;
+}
+
+#welcome h1{
+	margin-left: auto;
+	margin-right: auto;
+
+	max-width: 1000px;
+}
+
+#intro {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	height: 240px;
+	padding: 90px 0 0 100px;
+}
+
+#intro p {
+	color: #999; 
+	font-family: 'pt sans';
+	font-size: 20px;
+}
+
+
+.intertext {
+	background: linear-gradient(to top, rgb(53,193,255), rgb(79,223,193));
+	min-height: 240px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 90px;
+}
+
+.intertext p {
+	font-size: 22px;
+	color: white;
+	margin-top: 12px;
+}
+
+#overview i {
+	display: block;
+	border-radius: 150px;
+	background-color: white;
+	font-size: 60px;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	margin: 55px auto;
+	padding: 13%;
+
+	box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.1);
+}
+
+#overview ul {
+	text-align: center;
+
+	background: linear-gradient(to top, rgb(53,193,255), rgb(79,223,193));
+}
+
+#overview li {
+	display: inline-block;
+	border-right: 1px solid white;
+	
+	padding: 0 30px 90px 30px;
+}
+#overview ul :last-child {
+	border: 0;
+}
+
+#overview p {
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 10px;
+
+	width: 350px;
+
+
+}
+
+
+.steps img {
+	border-radius: 151px;
+	box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.1);
+}
+
+ul.steps {
+	margin-bottom: 90px;
+	text-align: center;
+}
+
+.steps li {
+	display: inline-block;
+	margin: 0 30px;
+	text-align: center;
+
+}
+
+.steps p {
+	text-align: center;
+	margin-top: 50px;
+	width: 170px;
+}
+
+
+#improve header, #prepare header, #submit header {
+	text-align: center;
+	margin: 90px 0;
+}
+
+
+
+#footer {
+	background-image: url(../images/bg-btm.jpg);
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 320px 5%;
+}
