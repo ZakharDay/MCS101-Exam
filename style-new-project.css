@@ -1,0 +1,240 @@
+html, body {
+   width: 100%;
+   height: 100%;
+   font-family:'PT Sans', sans-serif;
+   font-size: 40px;
+ }
+
+ section#top,
+ section#bottom,
+ .bg-top,
+ .bg-bottom {
+	position: relative;
+	width: 1440px;
+	height: 800px;
+}
+
+.bg-top {
+	background-image: url(../images/bg-top.jpg);
+}
+
+
+.bg-top,
+.bg-bottom {
+	position: absolute;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+}
+
+p#text {
+	text-align: center;
+	margin-top: 340px;
+	color: black;
+	font-size: 58px;
+	font-family: 'PT Sans Caption', sans-serif;
+}
+
+#block1 {
+	position: relative;
+	width: 1440px;
+	height: 240px;
+}
+
+#block1 p#text1,
+#block3 p#text1,
+#block5 p#text1,
+#block7 p#text1 {
+	text-align: center;
+	padding-top: 91px;
+	font-size: 28px; 
+	font-family: 'PT Sans Caption', sans-serif;
+}
+
+#block1 p#text2 {
+	text-align: center;
+	color: grey;
+	font-size: 24px;
+	padding-top: 5px;
+	font-family: 'PT Sans', sans-serif; 
+}
+
+#block2 {
+	position: relative;
+	width: 1440px;
+	height: 462px;
+}
+
+p.text-one {
+	font-family: 'PT Sans Caption', sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 22px;
+	margin-top: 10px
+}
+
+p.text-two {
+	font-family: 'PT Sans', sans-serif;
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+}
+
+#block3,
+#block5,
+#block7 {
+	text-align: center;
+	width: 1440px;
+	height: 556px;
+}
+
+#block3 p.text-icon,
+#block5 p.text-icon,
+#block7 p.text-icon {
+	margin: 15px;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	text-shadow: none;
+}
+
+#block4,
+#block6 {
+	text-align: center;
+	width: 1440px;
+	height: 240px;
+}
+
+#block4 p.text-one,
+#block6 p.text-one,
+#block8 p.text-one {
+	padding-top: 91px;
+	font-size: 28px;
+}
+
+
+#block4 p.text-two,
+#block6 p.text-two,
+#block7 p.text-two {
+	margin-top: 10px;
+	font-size: 24px;
+}
+
+#block4,
+#block6,
+#block8 {
+	width: 1440px;
+	height: 230px;
+	background-image: url(../images/background.png);
+}
+
+
+.flex {
+	position: relative;
+	display: flex;
+	text-align: center;
+	padding: 1px;
+}
+
+#block2 .flex #flex-one, 
+#block2 .flex #flex-two,
+#block2 .flex #flex-three {
+	border: 1px solid white;
+	width: 475px;
+	height: 460px;
+	text-shadow: 0 .9px .9px #CCFFFF;
+	background: url(../images/block.jpg);    
+}
+
+
+.container {
+	width: 180px;
+	height: 181px;
+	margin: 94px auto 67px;
+}
+
+.icon {
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 21px 15px;
+	box-shadow: 1.5px 1.5px 5px grey;
+	background-color: white;
+	border-radius: 150px;
+	
+}
+
+.conatinertwo {
+	width: 180px;
+	height: 181px;
+	margin: 90px auto 32px;
+}
+
+.icon-info {
+	margin: 10px 15px 21px 15px;
+	width: 150px;
+	height: 150px;
+
+}
+
+.flex .fa-code-fork,
+.flex .fa-files-o,
+.flex .fa-github-alt {
+	margin: 37px auto;
+	font-size: 75px;
+	color: black;
+}
+
+.flex-mini {
+	width: 20%;
+	width: 33.3333%;
+}
+
+
+.icon-info#one,
+.icon-info#two,
+.icon-info#three,
+.icon-info#four,
+.icon-info#five,
+.icon-info#six,
+.icon-info#seven,
+.icon-info#eight,
+.icon-info#nine,
+.icon-info#ten,
+.icon-info#eleven,
+.icon-info#twelve,
+.icon-info#thirteen {
+	background: url(../images/info-04.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 90px;
+	border-radius: 75px;
+	box-shadow: 1.5px 1.5px 5px grey;
+}
+
+.icon-info#one {background: url(../images/info-01.jpg);}
+.icon-info#two {background: url(../images/info-02.jpg);}
+.icon-info#three {background: url(../images/info-03.jpg);}
+.icon-info#four {background: url(../images/info-04.jpg);}
+.icon-info#five {background: url(../images/info-05.jpg);}
+.icon-info#six {background: url(../images/info-06.jpg);}
+.icon-info#seven {background: url(../images/info-07.jpg);}
+.icon-info#eight {background: url(../images/info-08.jpg);}
+.icon-info#nine {background: url(../images/info-09.jpg);}
+.icon-info#ten {background: url(../images/info-10.jpg);}
+.icon-info#eleven {background: url(../images/info-11.jpg);}
+.icon-info#twelve {background: url(../images/info-12.jpg);}
+.icon-info#thirteen {background: url(../images/info-13.jpg);}
+
+.bg-bottom {
+	background-image: url(../images/bg-btm.jpg);
+}
+
+#sign {
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	margin-top: 270px;
+}
+
+

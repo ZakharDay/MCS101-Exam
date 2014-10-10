@@ -15,13 +15,10 @@
 			<p id="text">Вы на пути к полному контролю всего,<br> что просиходит в браузере</p>
 		</div>
 	</section>
-
 	<section id="block1">
 		<p id="text1">Предлагаю сверстать простую страничку и захостить её на GitHub</p>
 		<p id="text2">Практическое задание — лучший способ изучения и закрепления материала.</p>
 	</section>
-
-
 	<section id="block2">
 		<div class="flex">
 			<div id="flex-one">
@@ -56,7 +53,6 @@
 			</div>
 		</div>
 	</section>
-
 	<section id="block3">
 		<p id="text1">Улучшение вашей системы</p>
 		<div class="flex">
@@ -93,14 +89,12 @@
 			</div>
 		</div>
 	</section>
-
 	<section id="block4">
 		<div id="sectionthree">
 			<p class="text-one">Потратьте немного времени и научитесь использовать силу GitHub</p>
 			<p class="text-two">Когда ваш код окажется там, будет очень просто его комментировать и править.</p>
 		</div>
 	</section>
-
 	<section id="block5">
 		<p id="text1">Подготовка к работе</p>
 		<div class="flex">
@@ -136,14 +130,12 @@
 			</div>
 		</div>
 	</section>
-
 	<section id="block6">
 		<div id="sectionfive">
 			<p class="text-one">Теперь все готово для верстки</p>
 			<p class="text-two">Вспомните всё чему вы научились на курсе и сверстайте этот шаблон.</p>
 		</div>
 	</section>
-
 	<section id="block7">
 		<p id="text1">Сдача работы</p>
 		<div class="flex">
@@ -173,9 +165,6 @@
 			<p class="text-two">Наконец-то ваш проект на GitHub. Скоро вы получите комментарии по коду.</p>
 		</div>
 	</section>
-
-
-
 	<section id="bottom"> 
 		<div class="bg-bottom">
 			<p id="text">До встречи</p>
