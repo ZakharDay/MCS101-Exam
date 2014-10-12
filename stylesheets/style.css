@@ -1,0 +1,276 @@
+/*main stuff*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'PT Sans Caption', sans-serif;
+}
+
+h1 {font-size: 58px;}
+h2 {font-size: 28px;}
+h3 {font-size: 21px;}
+h3 {font-size: 18px;}
+
+/*intro&outro*/
+
+#intro {
+	background-position: center;
+	background-image: url(../images/bg-top.jpg);
+	background-repeat: no-repeat;
+}
+
+#introtext {
+	text-align: center;
+	font-style: inherit;
+	padding: 330px 100px;
+	line-height: 70px;
+}
+
+#outro {
+	background-position: center;
+	background-image: url(../images/bg-btm.jpg);
+	background-repeat: no-repeat;
+}
+
+/*firststeps*/
+
+#firststeps {
+	margin: 100px 90px;
+	text-align: center;
+}
+
+#firstepsgreytext{
+	color: #999999;
+	margin-top: 10px;
+}
+
+/*gradientblocks*/
+
+#gradientblocks ul {
+	display: flex;
+}
+
+#gradientblock1 {
+	height: 462px;
+	width: 480px;
+	background: linear-gradient(to top, #64B1FB, #8DDFCE);
+}
+
+#gradientblock2 {
+	height: 462px;
+	width: 480px;
+	background: linear-gradient(to top, #64B1FB, #8DDFCE);
+	border-left: 1px solid white;
+}
+
+#gradientblock3 {
+	height: 462px;
+	width: 480px;
+	background: linear-gradient(to top, #64B1FB, #8DDFCE);
+	border-left: 1px solid white;
+}
+
+#text {
+	color: white;
+	margin: 330px 40px;
+	text-align: center;
+}
+
+#text h4{
+	margin-top: 10px;
+	font-style: inherit;
+}
+
+/*icons*/
+
+#fork {
+	margin: 145px 220px;
+}	
+
+#copy, #git {
+	margin: 145px 205px;
+}
+
+#circle {
+	height: 180px;
+	width: 180px;
+	background: white;
+	border-radius: 90px;
+	margin: -265px 145px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/*justcircles*/
+
+#circles {
+	display: flex;
+	text-align: center;
+	line-height: 20px;
+}
+
+#maintext {
+	margin: 100px 100px;
+	text-align: center;
+}
+
+
+#ewcircles {
+	display: flex;
+	text-align: center;
+	line-height: 20px;
+}
+
+#ew li {
+	flex-basis: calc(100% / 3);
+	margin-left: 145px;
+}
+
+#circles li {
+	flex-basis: calc(100% / 5);
+	margin-left: 55px;
+}
+
+#circle1 {
+	height: 180px;
+	width: 180px;
+	background: white;
+	border-radius: 90px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-image: url(../images/info-01.jpg);
+}
+
+#circle2 {
+	height: 180px;
+	width: 180px;
+	background: white;
+	border-radius: 90px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-image: url(../images/info-02.jpg);
+}
+
+#circle3 {
+	height: 180px;
+	width: 180px;
+	background: white;
+	border-radius: 90px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-image: url(../images/info-03.jpg);
+}
+
+#circle4 {
+	height: 180px;
+	width: 180px;
+	background: white;
+	border-radius: 90px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-image: url(../images/info-04.jpg);
+}
+
+#circle5 {
+	height: 180px;
+	width: 180px;
+	background: white;
+	border-radius: 90px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-image: url(../images/info-05.jpg);
+}
+
+/*pfwcircles*/
+
+#pfwcircle1 {
+	height: 180px;
+	width: 180px;
+	background: white;
+	border-radius: 90px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-image: url(../images/info-06.jpg);
+}
+
+#pfwcircle2 {
+	height: 180px;
+	width: 180px;
+	background: white;
+	border-radius: 90px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-image: url(../images/info-07.jpg);
+}
+
+#pfwcircle3 {
+	height: 180px;
+	width: 180px;
+	background: white;
+	border-radius: 90px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-image: url(../images/info-08.jpg);
+}
+
+#pfwcircle4 {
+	height: 180px;
+	width: 180px;
+	background: white;
+	border-radius: 90px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-image: url(../images/info-09.jpg);
+}
+
+#pfwcircle5 {
+	height: 180px;
+	width: 180px;
+	background: white;
+	border-radius: 90px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-image: url(../images/info-10.jpg);
+}
+
+/*ewcircles*/
+
+#ewcircle1 {
+	height: 180px;
+	width: 180px;
+	background: white;
+	border-radius: 90px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-image: url(../images/info-11.jpg);
+}
+
+#ewcircle2 {
+	height: 180px;
+	width: 180px;
+	background: white;
+	border-radius: 90px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-image: url(../images/info-12.jpg);
+}
+
+#ewcircle3 {
+	height: 180px;
+	width: 180px;
+	background: white;
+	border-radius: 90px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-image: url(../images/info-13.jpg);
+}
+
+#circletext {
+	margin-top: 50px;
+	width: 190px;
+}
+
+#blueblock {
+	margin-top: 100px;
+	width: 100%;
+	height: 240px;
+	background: linear-gradient(to top, #64B1FB, #8DDFCE);
+	text-align: center;
+}
+
+#blueblocktest {
+	padding: 90px;
+	color: white;
+}
+
+#blueblocktest2 {
+	padding-top: 10px;
+}
