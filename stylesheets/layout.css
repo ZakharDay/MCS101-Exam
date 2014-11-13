@@ -1,76 +1,60 @@
 * {
-  background-size: cover;
-  background-position: center;
-  text-align: center;
+	  background-position: center;
+	  background-size: cover;
+	  text-align: center;
+      font-family: 'PT Sans Caption', Helvetica, Arial, sans-serif;
 }
 
-body {
-  font-family: 'PT Sans Caption', Helvetica, Arial, sans-serif;
+html body {
+	width: 100%;
+	height: 100%;
+	min-width: 1280px;
+    font-family: 'PT Sans Caption', Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #02b2fe;
-}
-
-html,
-body,
-.fullscreen {
+.view {
+  display: flex;
+  padding: 80px 0;
+  height: 625px;
   width: 100%;
-  height: 100%;
 }
 
-.fullscreen {
-  display: flex;
-}
-
-.fullscreen header {
+.view header {
+  font-size: 55px;
   margin: auto;
-  font-size: 58px;
-  line-height: 70px;
+  line-height: 72px;
+  font-family: 'PT Sans Caption', Helvetica, Arial, sans-serif; 
 }
 
-#welcome { background-image: url(../images/bg-top.jpg); }
-#goodbye { background-image: url(../images/bg-btm.jpg); }
-
-.headlineSeparator {
-  padding: 89px 0 91px;
-  text-align: center;
+.whiteline h1 {
+	  font-size: 27px;	
+      font-family: 'PT Sans Caption', Helvetica, Arial, sans-serif;  
 }
 
-.headlineSeparator h2 {
-  font-size: 28px;
-}
-
-.headlineSeparator p {
+.whiteline p {
+  color: #98999B;
+  font-size: 23px;
+  font-family: 'PT Sans Caption', Helvetica, Arial, sans-serif;  
   margin-top: 8px;
-  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-  font-size: 24px;
 }
 
-.headlineSeparator.white {
-  background-color: white; 
+#start {
+	background-image: url(../images/bg-top.jpg);
+}
+#farewell { background-image: url(../images/bg-btm.jpg); }
+
+.whiteline {
+  background-color: white;
+  padding: 80px 0;
 }
 
-.headlineSeparator.white p {
-  color: #999999;
-}
-
-.headlineSeparator.colored {
-  background: linear-gradient(180deg, rgb(74, 224, 205) 0%, rgb(0, 177, 255) 100%);
-}
-
-.headlineSeparator.colored h2,
-.headlineSeparator.colored p {
-  color: white;
-}
-
-.spoiler {
+.todo {
   display: flex;
   text-align: center;
   background: linear-gradient(180deg, rgb(74, 224, 205) 0%, rgb(0, 177, 255) 100%);
 }
 
-.spoiler .icon {
+.todo .icon {
   width: 180px;
   height: 180px;
   margin: 0 auto;
@@ -80,73 +64,85 @@ body,
   line-height: 185px;
 }
 
-.spoiler li {
+.todo li {
   width: 33.33%;
   padding: 104px 0 60px 0;
 }
 
-.spoiler li:nth-child(even) {
+.todo li:nth-child(even) {
   border-left: 1px solid white;
   border-right: 1px solid white;
 }
 
-.spoiler h2,
-.spoiler p {
+.todo h2, 
+.todo p {
   width: 350px;
   margin: 0 auto;
   color: white;
 }
 
-.spoiler h2 {
+.todo h2 {
   margin-top: 84px;
   font-size: 22px;
 }
 
-.spoiler p {
+.todo p {
   margin-top: 5px;
   font-family: 'PT Sans', Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
 
-
-
-
-.guide {
+.text header {
+  font-size: 35px;
+  margin: 85px 0 90px;
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 }
 
-.guide header {
-  margin: 90px 0 93px;
-  font-size: 36px;
+.text p {
+  margin: 50px 0 90px 0;
+  font-size: 22px;
+  line-height: 28px;
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 }
 
-.guide ul {
+.text ul {
   display: flex;
   justify-content: space-around;
 }
 
-.guide li {
+.text li {
   flex-basis: 236px;
 }
 
-.guide div {
-  margin: 50px 0 94px 0;
-  font-size: 18px;
-  line-height: 22px;
-}
-
-.guide img {
+.text img {
   display: block;
   margin: 0 auto;
   border-radius: 75px;
   box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, .15);
 }
 
-.copyright {
-  position: absolute;
-  width: 100%;
-  margin-top: -100px;
-  font-size: 16px;
-  color: white;
+.blueline {
+  padding: 80px 0;
+  background: linear-gradient(180deg, rgb(74, 224, 205) 0%, rgb(0, 177, 255) 100%);
 }
 
+.blueline h1 {
+  color: white;
+  font-size: 27px;  
+  font-family: 'PT Sans Caption', Helvetica, Arial, sans-serif;  
+}
+
+.blueline p {
+  color: white;
+  font-size: 23px;
+  font-family: 'PT Sans Caption', Helvetica, Arial, sans-serif;  
+  margin-top: 8px;
+}
+
+.ZakharDay {
+  font-size: 17px; 
+  margin: -90px 0 0 0;
+  text-align: center;
+  color: white;
+}
